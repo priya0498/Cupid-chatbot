@@ -1,0 +1,29 @@
+html,
+body {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+#chatdiv {
+    width: 50%;
+    height: 100%;
+    border: 1px solid blueviolet;
+}
+
+#chatdiv2 {
+    width: 50%;
+    height: 100%;
+    border: 1px solid seagreen;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+}
+
+#maindiv{
+    width: 100%;
+    flex: 1;
+    background-color: cornsilk;
+    display: flex;
+    margin: 0 auto;
+}
